@@ -113,12 +113,13 @@ public class CalUITest {
     /**
      * Test of main method, of class CalUI.
      */
-//    @Test
-//    public void testMain() {
-//        System.out.println("main");
-//        String[] args = null;
-//        CalUI.main(args);
-//        fail("Main methond run faild");
-//    }
+    @Test
+    public void testMain() {
+        System.out.println("main");
+        String[] args = null;
+        CalUI.main(args);
+        assertEquals(1,1);
+       // fail("NO it has to be Success :p");
+    }
 
 }
